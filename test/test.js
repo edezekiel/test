@@ -11,3 +11,16 @@ describe('Array', function() {
     });
   });
 });
+
+describe('Math', function() {
+  describe('testOne', function() {
+    it('should test if 3 times 3 equals 9', function() {
+      assert.equal(9, (3*3));
+    });
+  });
+  describe('testTwo', function() {
+    it('should test if 3 minus four times eight equals negative 8', function() {
+      assert.equal(-8, (3-4)*8)
+    })
+  })
+});
