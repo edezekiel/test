@@ -24,3 +24,11 @@ describe('Math', function() {
     })
   })
 });
+
+describe('Compare', function() {
+  describe('Star Wars Quotes', function() {
+    it('should test whether two data types are both strings ', function() {
+      assert.equal(true, typeof "May the Fourth Be With You" === typeof "Help me Obi Wan Kenobi, you're my only hope")
+    })
+  })
+})
